@@ -54,6 +54,57 @@ namespace ConsoleApp1
             #endregion
 
 
+            #region Select & SelectMany
+            // 2. Transformation Operator --> select / SelectMany
+
+            // Fluent syntax
+            //var result =  ProductList.Select(P => P);
+            //var result = ProductList.Select(P => P.ProductName);
+
+
+            //var result = from P in ProductList
+            //             select P.ProductName;
+
+            //var result = ProductList.Where(p => p.UnitsInStock > 0 && p.Category=="Seafood")
+            //                        .Select(P => new {P.ProductName,
+            //                                          P.Category,
+            //                                          oldPrice=P.UnitPrice,
+            //                                          newprice=P.UnitPrice - P.UnitPrice*0.1m });
+
+
+
+            //var result = from P in ProductList
+            //             where P.UnitsInStock > 0 && P.Category == "Seafood"
+            //             select new
+            //             {
+            //                 P.ProductName,
+            //                 P.Category,
+            //                 oldPrice = P.UnitPrice,
+            //                 newprice = P.UnitPrice - P.UnitPrice * 0.1m
+            //             };
+
+
+
+            //var result = CustomerList.Select(c => c.CustomerName);
+            //var result = CustomerList.Select(c => c.Orders);// If One Of The Properte is sequance
+            //var result = CustomerList.SelectMany(c => c.Orders);
+
+            //var result = from c in CustomerList
+            //             from o in c.Orders
+            //             select o;
+
+            //var result = ProductList.Select((P, I) => new { I, P.ProductName }).Where(P => P.I < 5) ;
+
+
+
+
+            //foreach (var unit in result)
+            //{
+            //    Console.WriteLine(unit);
+            //}
+
+            #endregion
+
 
         }
     }
