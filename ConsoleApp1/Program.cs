@@ -53,7 +53,6 @@ namespace ConsoleApp1
 
             #endregion
 
-
             #region Select & SelectMany
             // 2. Transformation Operator --> select / SelectMany
 
@@ -105,6 +104,76 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Ordaring Operatoers
+            // Ordaring Operatoers
+
+
+            //var result = ProductList.OrderBy(P => P.UnitPrice).Select(P => new
+            //{
+            //    P.ProductName,
+            //    P.UnitsInStock,
+            //    P.UnitPrice
+            //});
+
+            //var result = ProductList.OrderBy(P => P.UnitsInStock).Select(P => new
+            //{
+            //    P.ProductName,
+            //    P.UnitsInStock,
+            //    P.UnitPrice
+            //});
+
+            //var result = ProductList.OrderByDescending(P => P.UnitsInStock).Select(P => new
+            //{
+            //    P.ProductName,
+            //    P.UnitsInStock,
+            //    P.UnitPrice
+            //});
+
+            //var result = ProductList.OrderByDescending(P => P.UnitPrice).Select(P => new
+            //{
+            //    P.ProductName,
+            //    P.UnitsInStock,
+            //    P.UnitPrice
+            //});
+
+            //var result = ProductList.Where(P => P.Category =="Meat/Poultry" && P.UnitsInStock > 0)
+            //    .OrderByDescending(P => P.UnitsInStock)
+            //    .ThenBy(P => P.UnitPrice)
+            //    .Select(P => new
+            //{
+            //    P.ProductName,
+            //    P.UnitsInStock,
+            //    P.UnitPrice
+            //});
+
+
+            //var result = from P in ProductList
+            //             where P.Category == "Meat/Poultry" && P.UnitsInStock > 0
+            //             orderby P.UnitPrice , P.UnitsInStock descending
+            //             select new
+            //             {
+            //                 P.ProductName,
+            //                 P.UnitsInStock,
+            //                 P.UnitPrice
+            //             };
+
+
+
+
+
+
+            //foreach (var unit in result)
+            //{
+            //    Console.WriteLine(unit);
+            //}
+
+            ////foreach (var unit in ProductList)
+            //{
+            //    Console.WriteLine(unit);
+            //}
+
+
+            #endregion
 
         }
     }
