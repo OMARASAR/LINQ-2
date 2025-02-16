@@ -175,6 +175,39 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Elements Operator - Immediate Execution
+            // Elements Operator - Immediate Execution
+
+            //ProductList = new List<Product>();
+
+            //var result =ProductList.First();
+            //var result = ProductList.Last();
+
+            //var result = ProductList.First(P => P.UnitsInStock == 0);
+            //var result = ProductList.Last(P => P.UnitsInStock == 0);
+
+            //var result = ProductList.FirstOrDefault( new Product() { ProductName= "Defult Producte" } );
+            //var result = ProductList.FirstOrDefault(P => P.UnitsInStock == 5000000000, new Product() { ProductName = "Defult Producte" });
+
+            //var result = ProductList.LastOrDefault();
+            //var result = ProductList.LastOrDefault(new Product() { ProductName = "Defult Producte" });
+            //var result = ProductList.LastOrDefault(P => P.UnitsInStock == 5000000000, new Product() { ProductName = "Defult Producte" });
+
+            //var result = ProductList.ElementAt(0);
+            //var result = ProductList.ElementAtOrDefault(1);
+
+            //var result = ProductList.Single();
+            //var result = ProductList.SingleOrDefault();
+
+
+
+
+            //Console.WriteLine(result?.ProductName ?? "NA");
+
+            #endregion
+
+
+
         }
     }
 }
