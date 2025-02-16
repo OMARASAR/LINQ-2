@@ -251,6 +251,21 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Casting operator
+            // Casting operator
+            //List<Product> List = (List<Product>) ProductList.Where(p => p.UnitsInStock == 0);
+            //List<Product> List = ProductList.Where(p => p.UnitsInStock == 0).ToList();
+            //Product[] List = ProductList.Where(p => p.UnitsInStock == 0).ToArray();
+            //Dictionary<long,Product> List = ProductList.Where(p => p.UnitsInStock == 0).ToDictionary(p => p.ProductID);
+
+            //foreach (var unit in List)
+            //{
+            //    Console.WriteLine(unit);
+            //}
+
+            #endregion
+
+
 
         }
     }
