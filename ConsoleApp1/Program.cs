@@ -265,6 +265,24 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Genetration operator
+            // Genetration operator
+            // the only way to call this method as -> class member method through "Enumerable" class
+            // RAnge , Empty , Repeat
+
+            //var result = Enumerable.Range(1, 100);
+            //var result = Enumerable.Empty<Product>();
+            //var result = Enumerable.Repeat(ProductList[0], 3);
+
+            //foreach (var item  in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
+
 
 
         }
