@@ -340,6 +340,55 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Grouping operator
+            // Grouping operator
+            //var result = ProductList.GroupBy(p => p.Category);
+            //result = from p in ProductList
+            //         group p by p.Category;
+
+
+
+
+
+            //foreach (var category in result)
+            //{
+            //    Console.WriteLine(category.Key);
+            //    foreach (var product in category)
+            //    {
+            //        Console.WriteLine($".....{product}");
+            //    }
+            //}
+
+            //var result = from p in ProductList
+            //             where p.UnitsInStock > 0
+            //          group p by p.Category
+            //          into ca 
+            //          where ca.Count() > 10
+            //          select new { categoryName = ca.Key, quantity = ca.Count() };
+
+            //var result = ProductList.Where(p => p.UnitsInStock > 0)
+            //                        .GroupBy(p => p.Category)
+            //                        .Where(c => c.Count() > 5)
+            //                        .Select(c => new { categoryName = c.Key, quantity = c.Count() });
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            //foreach (var category in result)
+            //{
+            //    Console.WriteLine(category.Key);
+            //    foreach (var product in category)
+            //    {
+            //        Console.WriteLine($".....{product}");
+            //    }
+            //}
+
+            #endregion
+
 
 
 
