@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Text.RegularExpressions;
 using static ConsoleApp1.ListGenerator;
 
 
@@ -411,6 +412,32 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region let / into
+            // let / into
+
+            //List<string> Names = new List<string>() { "Ahmed" , "Ali" , "Omar","Aya","Mariem","Askar"};
+            ////var result = from Name in Names
+            ////             select Regex.Replace(Name, "[aoiueAOIUE]", string.Empty)
+            ////              into n
+            ////             where n.Length > 1
+            ////             select n;
+
+            //var result = from Name in Names
+            //            let n =  Regex.Replace(Name, "[aoiueAOIUE]", string.Empty)
+            //             where n.Length > 1
+            //             select n;
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            ////var result = Regex.Replace("Ahmed","[aoiueAOIUE]",string.Empty);
+            ////Console.WriteLine(result);
+
+            #endregion
 
 
 
