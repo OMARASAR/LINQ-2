@@ -301,6 +301,33 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region MyRQuantefer Operatoregion
+            // Quantefer Operator
+            // Any , All , SequanceEqual , Contains
+
+            //var seq01 = Enumerable.Range(1, 100);
+            //var seq02 = Enumerable.Range(50, 100);
+
+            //// Any --> true when at least one element [ in sequance or match the condition ]
+            ////var result = seq01.Any(n => n % 2 == 0);
+
+            //// All --> true when all element [ in sequance or match the condition ]
+            ////var result = ProductList.All(p => p.UnitsInStock == 0);
+
+            //// SequanceEqual
+            ////var result = seq01.SequenceEqual(seq02);
+
+            //// Contains
+            //var result = seq02.Contains(1);
+
+
+
+            //Console.WriteLine(result);
+
+            #endregion
+
+
+
 
 
 
