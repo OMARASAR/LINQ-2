@@ -326,6 +326,19 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Ziping Operator
+            // Ziping Operator
+            //List<string> Words = new List<string>() { "one","ten","two"};
+            //List<int> Numbers = new List<int>() { 1,10,2 };
+
+            //var result = Words.Zip(Numbers, (W, N) => $"{N} --> {W}");
+
+            //foreach (var item in Words)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
 
 
 
