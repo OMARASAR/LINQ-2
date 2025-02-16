@@ -281,6 +281,28 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Set operator
+            //// Set operator
+            //// union , unionall , intersect , exept
+            //var seq01 = Enumerable.Range(1, 100);
+            //var seq02 = Enumerable.Range(50, 149);
+
+            ////var result = seq01.Union(seq02);
+            ////var result = seq01.Concat(seq02);
+
+            ////var result = seq01.Intersect(seq02);
+
+            ////var result = seq01.Except(seq02);
+
+            ////foreach (var item in result)
+            ////{
+            ////    Console.WriteLine($"{item}");
+            ////}
+
+            #endregion
+
+
+
 
 
 
