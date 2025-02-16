@@ -389,6 +389,27 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Partioning Opertor
+            // Partioning Opertor
+            //Take , TakeLast , Skip , SkipLast , TakeWhile , SkipWhile
+
+            //var result = ProductList.Where(P => P.UnitsInStock == 0).Take(3);
+            //var result = ProductList.TakeLast(5);
+
+            //var result = ProductList.Skip(5).Take(5);
+            //var result = ProductList.SkipLast(5);
+
+
+            // int[] Numbers = { 6, 9, 4, 1, 2, 3, 4, 5 };
+            //var result = Numbers.SkipWhile((n) => n % 3 ==0);
+
+
+            // foreach (var item in result)
+            // {
+            //     Console.WriteLine(item);  
+            // }
+
+            #endregion
 
 
 
