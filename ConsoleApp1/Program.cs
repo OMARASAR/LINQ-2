@@ -206,6 +206,50 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Agregate Operatoers
+            // Agregate Operatoers
+
+            // count - Sum - Max - Min - Avg
+
+            //Count
+            //var result = ProductList.Count();//77
+            //var result = ProductList.Count;//77
+            //var result = ProductList.Count(p => p.UnitsInStock == 0);//5
+            //var result = ProductList.Where(p => p.UnitsInStock == 0).Count();
+
+            //Sum 
+            //var result = ProductList.Sum(p => p.UnitPrice);//2222.7100
+            //var result = ProductList.Sum(p => p.UnitsInStock); //3180
+
+            //Avg
+            //var result = ProductList.Average(p => p.UnitPrice);//28.866363636363636363636363636
+
+            //Max
+            //var result = ProductList.Max();// $263.50,
+            //var result = ProductList.Max( new ProductComparebleUnitInStock ()  );// 125
+            //var result = ProductList.Max(p => p.UnitPrice);//263.5000
+            //var result = ProductList.Max(p => p.UnitsInStock);//125
+            //var MaxPrice = ProductList.Max(p => p.UnitPrice);
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice == MaxPrice);
+            //var result = ProductList.MaxBy(p => p.UnitPrice);
+
+            //Min
+            //var result = ProductList.Min();// $2.50
+            //var result = ProductList.Min(new ProductComparebleUnitInStock());// 0
+            //var result = ProductList.Min(p => p.UnitPrice);//2.5000
+            //var result = ProductList.Min(p => p.UnitsInStock);//0
+            //var MinPrice = ProductList.Min(p => p.UnitPrice);
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice == MinPrice);
+            //var result = ProductList.MinBy(p => p.UnitPrice);
+
+            //Aggregate
+            // List<string> Names = new List<string>() { "Ahmed", "Ali" , "Omar" , "Osama" };
+            //var result = Names.Aggregate((S01 , S02) => $"{S01} {S02}")   ;
+
+
+            // Console.WriteLine(result);
+
+            #endregion
 
 
         }
